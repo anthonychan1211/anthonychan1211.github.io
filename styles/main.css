@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  font-family: 'EB Garamond', sans-serif; }
+
+a, a:active, a:hover, a:visited {
+  color: #f7f7f7;
+  text-decoration: none; }
+
+a:active, a:hover {
+  color: #f7f7f7; }
+
+.main-title {
+  color: #f7f7f7; }
+
+.main-name {
+  font-size: 7em;
+  position: relative; }
+
+.main-hook {
+  font-size: 1.5em;
+  margin-bottom: 0; }
+
+.secondary-hook {
+  font-size: 1.5em; }
+
+.social-icons {
+  margin-top: 10px; }
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 1.5em; }
+
+.container {
+  background-color: black;
+  padding: 40px;
+  padding-top: 55vh;
+  height: 100vh;
+  width: 100%;
+  background: url(/images/bg.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+.container .main-title {
+  position: absolute; }
